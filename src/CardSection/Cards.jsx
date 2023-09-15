@@ -1,9 +1,9 @@
 import Card from "./Card";
 
-const Cards = () => {
+const Cards = ({clickedCards}) => {
     return (
         <div>
-            <Card></Card>
+            <Card clickedCards={clickedCards}></Card>
         </div>
     );
 };

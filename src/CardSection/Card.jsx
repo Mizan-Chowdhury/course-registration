@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import { FaDollarSign, FaBookOpen } from "react-icons/fa";
-const Card = () => {
+const Card = ({clickedCards}) => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -34,7 +34,8 @@ const Card = () => {
               </div>
             </div>
             <div className="text-center">
-              <button className="bg-[#2F80ED] w-full rounded-lg py-1 text-white">
+              <button className="bg-[#2F80ED] w-full rounded-lg py-1 text-white"
+              onClick={()=>clickedCards(card)}>
                 Select
               </button>
             </div>

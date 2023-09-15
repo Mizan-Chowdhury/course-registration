@@ -8,7 +8,7 @@
         "credit": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "cover": "https://i.ibb.co/thCkRVJ/Rectangle-2-3.png",
         "title": "Introduction to Algorithms",
         "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
@@ -16,7 +16,7 @@
         "credit": 2
     },
     {
-        "id": 1,
+        "id": 3,
         "cover": "https://i.ibb.co/55RTKch/Rectangle-2-4.png",
         "title": "Introduction to C++ for DSA",
         "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
@@ -24,7 +24,7 @@
         "credit": 10
     },
     {
-        "id": 1,
+        "id": 4,
         "cover": "https://i.ibb.co/GdnhLwT/Rectangle-3.png",
         "title": "Basic Data Structures",
         "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
@@ -32,7 +32,7 @@
         "credit": 5
     },
     {
-        "id": 1,
+        "id": 5,
         "cover": "https://i.ibb.co/rHjXGpt/Rectangle-2.png",
         "title": "Introduction to OOP Python",
         "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
@@ -40,7 +40,7 @@
         "credit": 5
     },
     {
-        "id": 1,
+        "id": 6,
         "cover": "https://i.ibb.co/2F8yy53/Rectangle-2-5.png",
         "title": "Software Engineering",
         "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
@@ -48,7 +48,7 @@
         "credit": 2
     },
     {
-        "id": 1,
+        "id": 7,
         "cover": "https://i.ibb.co/C64j62B/Rectangle-3-1.png",
         "title": "AWS, Cloud Computing",
         "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
@@ -56,7 +56,7 @@
         "credit": 5
     },
     {
-        "id": 1,
+        "id": 8,
         "cover": "https://i.ibb.co/yBNCNrN/Rectangle-2-1.png",
         "title": "Database (MySQL)",
         "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
@@ -64,7 +64,7 @@
         "credit": 5
     },
     {
-        "id": 1,
+        "id": 9,
         "cover": "https://i.ibb.co/v3MYLW6/Rectangle-2-6.png",
         "title": "Problem-Solving Part",
         "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
