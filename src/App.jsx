@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import "./App.css";
 import Cards from "./CardSection/Cards";
-import CartSec from "./CartSection/CartSec";
+import CartSec from './CartSection/CartSec';
 function App() {
   const [selectedCard, setSelectedCard]= useState([]);
 
