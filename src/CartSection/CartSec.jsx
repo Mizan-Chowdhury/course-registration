@@ -1,13 +1,4 @@
-const CartSec = ({selectedCard}) => {
-  let creditCount = 0;
-  let priceCount = 0;
-  {
-    selectedCard.forEach(item =>(
-      creditCount = creditCount + item.credit,
-      priceCount = priceCount + item.price
-    ))
-  }
-  let remaining = 20 - creditCount 
+const CartSec = ({ selectedCard, count, remaining, price }) => {
   return (
     <div className="w-3/5">
       <dir>
@@ -21,20 +12,20 @@ const CartSec = ({selectedCard}) => {
           <div className="my-5">
             <h1 className="font-bold text-lg">Course Name</h1>
             <ol className="space-y-2 mt-5">
-              {
-                selectedCard.map((card,inx)=>(
-                  <li key={inx}>{inx +1} {card.title}</li>
-                ))
-              }
+              {selectedCard.map((card, inx) => (
+                <li key={inx}>
+                  {inx + 1} {card.title}
+                </li>
+              ))}
             </ol>
           </div>
           <hr />
           <div className="my-5">
-            <h1>Total Credit Hour : {creditCount}</h1>
+            <h1>Total Credit Hour : {count}</h1>
           </div>
           <hr />
           <div className="mt-5">
-            <h1>Total Price : {priceCount} USD</h1>
+            <h1>Total Price : {price} USD</h1>
           </div>
         </div>
       </dir>
