@@ -3,7 +3,7 @@
         "id": 1,
         "cover": "https://i.ibb.co/RPfJ6bK/Rectangle-2-2.png",
         "title": "Introduction to C Programming",
-        "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "C programming language is a high-level structured programming language that is widely used for developing applications ranging from operating systems to video games.",
         "price": 15000,
         "credit": 1
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "cover": "https://i.ibb.co/thCkRVJ/Rectangle-2-3.png",
         "title": "Introduction to Algorithms",
-        "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Algorithms are a set of instructions that are designed to solve a specific problem or complete a task. They are an essential part of computer science and are used in various fields to process information.",
         "price": 25000,
         "credit": 2
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "cover": "https://i.ibb.co/55RTKch/Rectangle-2-4.png",
         "title": "Introduction to C++ for DSA",
-        "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "C++ is a high-level programming language that is widely used for developing operating systems, database, video games, and other software applications.",
         "price": 10000,
         "credit": 10
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "cover": "https://i.ibb.co/GdnhLwT/Rectangle-3.png",
         "title": "Basic Data Structures",
-        "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Data structures are essential components of computer science that enable efficient and effective handling of data in various applications, including algorithms, databases, and software development.",
         "price": 35000,
         "credit": 5
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "cover": "https://i.ibb.co/rHjXGpt/Rectangle-2.png",
         "title": "Introduction to OOP Python",
-        "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Object-Oriented Programming (OOP) in Python is a programming paradigm that focuses on using objects to design and build applications, allowing for better code organization, reusability, and extensibility.",
         "price": 19000,
         "credit": 5
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "cover": "https://i.ibb.co/2F8yy53/Rectangle-2-5.png",
         "title": "Software Engineering",
-        "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Software Engineering is the process of designing, building, testing, and maintaining software applications using well-structured methodologies and tools.",
         "price": 23000,
         "credit": 2
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "cover": "https://i.ibb.co/C64j62B/Rectangle-3-1.png",
         "title": "AWS, Cloud Computing",
-        "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "AWS (Amazon Web Services) is a leading cloud computing platform offering a wide range of scalable and flexible services for computing, storage, database, and analytics needs.",
         "price": 35000,
         "credit": 5
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "cover": "https://i.ibb.co/yBNCNrN/Rectangle-2-1.png",
         "title": "Database (MySQL)",
-        "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "MySQL is an open-source, relational database management system. It is widely used for web applications, storing data for content management systems, e-commerce platforms, etc.",
         "price": 19000,
         "credit": 5
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "cover": "https://i.ibb.co/v3MYLW6/Rectangle-2-6.png",
         "title": "Problem-Solving Part",
-        "description": "It is a long established fact that areader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "With effective problem-solving skills, individuals have the ability to identify, analyze, and ultimately resolve a wide range of personal and professional challenges.",
         "price": 23000,
         "credit": 2
     }
