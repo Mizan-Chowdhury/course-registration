@@ -10,9 +10,9 @@
 
 ## Discussing of State
 
-I have been asked to do a project where there will be some cards, and state management to show the clicked cards,total price and credit of the cards in a cart section. So I created a cart component that shows the items, price and credit of that selected cards.
-I used state hooks to update these cards values.
-So I created a function that fetches the selected cards. Then I mapped on those cards and stores them in the state. then I added some conditions to the cards returned from the state and sent them to the cart section through props, then I showed the price and credit of the cards to be clicked on the UI.
+I have been asked to do a project where there will be some cards, and state management to show the clicked cards,total price and credit of the cards in a cart section. So I created a cart component that shows the cards name, price and credit of that selected cards.
+I used state hook to update these cards values.
+So I created a function that fetches the selected cards, then I mapped on those cards and stores them in the state. then I added some conditions to the cards returned from the state and sent them to the cart section through props, then I showed the name, total price and credit of the cards to be clicked on the UI.
 
 Our conditions were that one of these selected cards could not be shown a second time, Credit time shall not exceed 20 hours.
 
