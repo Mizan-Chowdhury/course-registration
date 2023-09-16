@@ -23,24 +23,24 @@ function App() {
         (creditCount = creditCount + item.credit),
           (totalPrice = totalPrice + item.price);
       });
-      totalRemaining = totalRemaining - creditCount;
       if (creditCount > 20) {
         return toast("Opps! Cannot add credit more than 20 hours");
       } else {
+        totalRemaining = totalRemaining - creditCount;
+        setRemaining(totalRemaining);
         setCount(creditCount);
+        setSelectedCard(cardArr);
+        setPrice(totalPrice);
       }
-      setRemaining(totalRemaining);
-      setSelectedCard(cardArr);
-      setPrice(totalPrice);
     }
   };
 
   return (
     <>
-      <h1 className="text-center text-4xl font-bold my-10">
+      <h1 className="text-center text-4xl font-bold mt-10">
         Course Registration
       </h1>
-      <div className="flex gap-5 mx-20">
+      <div className="lg:flex gap-5 lg:m-14 m-5 lg:space-y-0 space-y-5">
         <Cards clickedCards={clickedCards}></Cards>
         <CartSec
           selectedCard={selectedCard}

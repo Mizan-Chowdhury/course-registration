@@ -1,7 +1,7 @@
+import PropTypes from 'prop-types';
 const CartSec = ({ selectedCard, count, remaining, price }) => {
   return (
-    <div className="w-3/5">
-      <dir>
+    <div className="lg:w-3/5">
         <div className="bg-[#FFF] rounded-xl p-5">
           <div className="mb-5">
             <h1 className="text-[#2F80ED] font-bold text-lg">
@@ -28,9 +28,15 @@ const CartSec = ({ selectedCard, count, remaining, price }) => {
             <h1>Total Price : {price} USD</h1>
           </div>
         </div>
-      </dir>
     </div>
   );
 };
+
+CartSec.propTypes = {
+  selectedCard : PropTypes.array,
+  count : PropTypes.number,
+  remaining : PropTypes.number,
+  price : PropTypes.number
+}
 
 export default CartSec;

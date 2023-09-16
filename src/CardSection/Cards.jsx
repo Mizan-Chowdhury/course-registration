@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Card from "./Card";
 
 const Cards = ({clickedCards}) => {
@@ -8,4 +9,7 @@ const Cards = ({clickedCards}) => {
     );
 };
 
+Cards.propTypes = {
+    clickedCards : PropTypes.func
+}
 export default Cards;

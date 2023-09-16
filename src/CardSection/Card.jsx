@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import { useState } from "react";
 import { useEffect } from "react";
 import { FaDollarSign, FaBookOpen } from "react-icons/fa";
@@ -10,7 +11,7 @@ const Card = ({clickedCards}) => {
       .then((data) => setCards(data));
   }, []);
   return (
-    <div className="grid grid-cols-3 gap-5">
+    <div className="grid lg:grid-cols-3 gap-5">
       {cards.map((card, inx) => (
         <div key={inx} className="p-4 bg-[#FFF] rounded-xl">
           <img className="w-full" src={card.cover} alt="" />
@@ -46,4 +47,7 @@ const Card = ({clickedCards}) => {
   );
 };
 
+Card.propTypes = {
+  clickedCards : PropTypes.func
+}
 export default Card;
