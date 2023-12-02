@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 const CartSec = ({ selectedCard, count, remaining, price }) => {
   return (
-    <div className="lg:w-3/5">
+    <div className="lg:w-4/5">
         <div className="bg-[#FFF] rounded-xl p-5">
           <div className="mb-5">
             <h1 className="text-[#2F80ED] font-bold text-lg">

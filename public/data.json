@@ -11,7 +11,7 @@
         "id": 2,
         "cover": "https://i.ibb.co/thCkRVJ/Rectangle-2-3.png",
         "title": "Introduction to Algorithms",
-        "description": "Algorithms are a set of instructions that are designed to solve a specific problem or complete a task. They are an essential part of computer science and are used in various fields to process information.",
+        "description": "Algorithms are a set of instructions that are designed to solve a specific problem or complete a task. They are an essential part of computer science and are used in various.",
         "price": 25000,
         "credit": 2
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "cover": "https://i.ibb.co/GdnhLwT/Rectangle-3.png",
         "title": "Basic Data Structures",
-        "description": "Data structures are essential components of computer science that enable efficient and effective handling of data in various applications, including algorithms, databases, and software development.",
+        "description": "Data structures are essential components of computer science that enable efficient and effective handling of data in various applications, including algorithms.",
         "price": 35000,
         "credit": 5
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "cover": "https://i.ibb.co/rHjXGpt/Rectangle-2.png",
         "title": "Introduction to OOP Python",
-        "description": "Object-Oriented Programming (OOP) in Python is a programming paradigm that focuses on using objects to design and build applications, allowing for better code organization, reusability, and extensibility.",
+        "description": "Object-Oriented Programming (OOP) in Python is a programming paradigm that focuses on using objects to design and build applications lohsfdkehhhhjjdkaslkasjvlkjlk vjdkjkn, allowing for better code organization.",
         "price": 19000,
         "credit": 5
     },
